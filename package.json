@@ -1,0 +1,26 @@
+{
+  "name": "greeter-kata",
+  "version": "1.0.0",
+  "description": "It's a simple greeting app which sends a greeting according to timescale",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhsbsa-sabha/Greeter-kata.git"
+  },
+  "keywords": [],
+  "author": "Saheba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhsbsa-sabha/Greeter-kata/issues"
+  },
+  "homepage": "https://github.com/nhsbsa-sabha/Greeter-kata#readme",
+  "dependencies": {
+    "chai": "^5.2.0",
+    "express": "^5.1.0",
+    "mocha": "^11.7.1"
+  }
+}

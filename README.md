@@ -1,2 +1,2 @@
 # Greeter-kata
-It's a simple greeting app which sends a greeting according to timescale
+It's a simple greeting app which sends a greeting by taking input as name
