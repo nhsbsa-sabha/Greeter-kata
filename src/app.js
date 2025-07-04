@@ -25,3 +25,4 @@ app.listen(port, () => {
   console.log('To check when sending empty name, visit http://localhost:3000/greet/');
 
 });
+module.exports = app; // Export the app for testing purposes
