@@ -28,6 +28,4 @@ class Greeter {
     return finalGreeting;
   }
 }
-
-  
 module.exports = Greeter;
