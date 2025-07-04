@@ -1,6 +1,6 @@
 const chai = require("chai");
 const chaiHttp = require("chai-http");
-const app = require("../src/app"); // Adjusted path to match the structure
+const app = require("../src/app"); 
 const Greeter = require("../src/greeter");
 
 chai.use(chaiHttp);
@@ -14,7 +14,6 @@ describe("Greeter App", () => {
         .get("/greet/saheba")
         .end((err, res) => {
           expect(res).to.have.status(200);
-          // The greeting will be time-based, so we just check that it includes the name
           expect(res.text).to.include("Saheba!");
           done();
         });
