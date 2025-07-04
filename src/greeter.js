@@ -5,7 +5,8 @@ class Greeter {
       throw new Error("Name cannot be empty and should be a string");
     }
     const trimmedName = name.trim();
-    return `Hello, ${trimmedName}!`;
+    const capitalizedName = trimmedName.charAt(0).toUpperCase() + trimmedName.slice(1);
+    return `Hello, ${capitalizedName}!`;
   }
 }
 module.exports = Greeter;

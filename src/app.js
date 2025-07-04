@@ -13,5 +13,5 @@ app.get("/greet/:name", (req, res) => {
 
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
-  console.log(`To check the console log name is trimmed, visit http://localhost:${port}/greet/saheba   `);
+  console.log(`To check the console log name is trimmed and capitalized, visit http://localhost:${port}/greet/saheba   `);
 });
